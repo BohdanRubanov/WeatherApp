@@ -5,7 +5,6 @@ export const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        gap: 20,
     },
     text: {
         fontFamily: "Quicksand",
@@ -14,11 +13,10 @@ export const styles = StyleSheet.create({
         fontWeight: 700,
     },
     button: {
-        width:213,
-        height: 51,
-        borderRadius: 24,
-        backgroundColor: "#253BB9D9",
-        alignItems: "center",
-        justifyContent: "center",
+        fontFamily: "Quicksand",
+        color: "#FFFFFF",
+        fontSize: 36,
+        fontWeight: 700,
     }
+
 })
