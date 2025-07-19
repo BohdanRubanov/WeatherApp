@@ -7,8 +7,10 @@ export function CityPage(){
             <View>
                 <Text style = {styles.text}>Choose your city</Text>
             </View>
+        <View>
             <View>
                 <TouchableOpacity >
+
                     <Text>London</Text>
                 </TouchableOpacity>
             </View>
@@ -42,6 +44,8 @@ export function CityPage(){
                     <Text>Bristol</Text>
                 </TouchableOpacity>
             </View>
+            </View>
+            
         </View>
    
     )

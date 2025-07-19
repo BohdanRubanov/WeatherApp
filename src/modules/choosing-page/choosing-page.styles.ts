@@ -15,8 +15,7 @@ export const styles = StyleSheet.create({
     button: {
         fontFamily: "Quicksand",
         color: "#FFFFFF",
-        fontSize: 36,
-        fontWeight: 700,
+        height: 340,
     }
 
 })

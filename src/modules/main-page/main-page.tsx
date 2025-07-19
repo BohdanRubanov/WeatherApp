@@ -1,9 +1,14 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import { styles } from "./main-page.styles";
+import { useRouter } from "expo-router";
 
 
 
 export function MainPage(){
+    const router = useRouter()
+    const click = ()=>{
+        router.push("/choose-city")
+    }
     return (
         <View style = {styles.container}>
             <View>
@@ -12,7 +17,7 @@ export function MainPage(){
             </View>
 
             <View>
-                <TouchableOpacity style = {styles.button}>
+                <TouchableOpacity style = {styles.button} onPress={click}>
                     <Text>Choose the city</Text>
                 </TouchableOpacity>
             </View>
