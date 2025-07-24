@@ -9,6 +9,9 @@ export default function RootLayout(){
             <Stack.Screen name="(choose-city)" options={{
                 headerShown: false
             }}/>
+            <Stack.Screen name="(city-page)" options={{
+                headerShown: false
+            }}/>
         </Stack>
     )
 }

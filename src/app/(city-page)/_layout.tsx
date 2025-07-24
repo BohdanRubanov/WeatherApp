@@ -1,10 +1,10 @@
 import { Stack } from "expo-router";
 
 
-export default function ChoosingLayout(){
+export default function CityLayout(){
     return(
         <Stack>
-            <Stack.Screen name="choose-city" options={{
+            <Stack.Screen name="city-page" options={{
                 headerShown: false
             }}/>
         </Stack>

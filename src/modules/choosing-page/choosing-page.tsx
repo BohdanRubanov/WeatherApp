@@ -1,47 +1,46 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import { styles } from "./choosing-page.styles";
 
-export function CityPage(){
+export function ChoosingPage(){
     return(
         <View style = {styles.container}>
             <View>
-                <Text style = {styles.text}>Choose your city</Text>
+                <Text style = {styles.header}>Choose your city</Text>
             </View>
         <View>
             <View>
-                <TouchableOpacity >
-
-                    <Text>London</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>London</Text>
                 </TouchableOpacity>
             </View>
             <View>
-                <TouchableOpacity>
-                    <Text>Birmingham</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>Birmingham</Text>
                 </TouchableOpacity>
             </View>
             <View>
-                <TouchableOpacity>
-                    <Text>Manchester</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>Manchester</Text>
                 </TouchableOpacity>
             </View>
             <View>
-                <TouchableOpacity>
-                    <Text>Liverpool</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>Liverpool</Text>
                 </TouchableOpacity>
             </View>
             <View>
-                <TouchableOpacity>
-                    <Text>Leeds</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>Leeds</Text>
                 </TouchableOpacity>
             </View>
             <View>
-                <TouchableOpacity>
-                    <Text>Sheffield</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>Sheffield</Text>
                 </TouchableOpacity>
             </View>
             <View>
-                <TouchableOpacity>
-                    <Text>Bristol</Text>
+                <TouchableOpacity style = {styles.cityButton}>
+                    <Text style = {styles.cityText}>Bristol</Text>
                 </TouchableOpacity>
             </View>
             </View>
