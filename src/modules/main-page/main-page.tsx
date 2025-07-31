@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, ImageBackground } from "react-native";
 import { styles } from "./main-page.styles";
 import { useRouter } from "expo-router";
 
@@ -21,6 +21,7 @@ export function MainPage(){
                     <Text>Choose the city</Text>
                 </TouchableOpacity>
             </View>
+            <ImageBackground source={require("../../images/Frame 1.png")}/>
         </View>
     )
 }

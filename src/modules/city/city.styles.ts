@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
      cityText: {
         fontFamily: "Quicksand",
         fontSize: 24,
-        color: '#FFFFFF',
+        color: '#536be3ff',
         fontWeight: '700',
         padding: 22,
     }})
