@@ -9,7 +9,10 @@ interface CityProps {
 export function City(props: CityProps){
     const router = useRouter()
             const click = ()=>{
-                router.push("/city-page")
+                router.push({
+                    pathname: "/city-page",
+                    params: {name: props.name}
+                })
             }
     return(
         <View>

@@ -11,17 +11,16 @@ export function ChoosingPage(){
             <View>
                 <Text style = {styles.header}>Choose your city</Text>
             </View>
-        <View>
-            <FlatList 
-                data={cities}
-                keyExtractor={(city) => city}
-                renderItem={({item}) => {
-                    return <City name = {item}></City>
-                }} 
-            />
-            
-        </View>
-                <ImageBackground source={require("../../images/Frame 2.png")}/>
+            <View>
+                <FlatList 
+                    data={cities}
+                    keyExtractor={(city) => city}
+                    renderItem={({item}) => {
+                        return <City name = {item}></City>
+                    }} 
+                />
+                
+            </View>
         </View>
    
     )
